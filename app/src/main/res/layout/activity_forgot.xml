@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Backgrounds"
+    tools:context=".Forgot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud_computing"
+            android:layout_weight="2.5"/>
+
+
+       <android.support.v4.widget.Space
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="#AFB6C0"
+            android:gravity="center"
+            android:textSize="40sp"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AFB6C0"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="We just need your register Email-id to sent you "
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AFB6C0"
+            android:gravity="center"
+            android:text="password reset instructions"
+            />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AFB6C0"
+            android:text="Email"
+            android:layout_marginStart="25dp"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/inputemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColorHint="#AFB6C0"
+            android:inputType="textEmailAddress"
+            android:layout_marginEnd="8dp"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:onClick="resetPassword"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/backbutton"
+            android:textColor="#E4EBED"
+            android:text="resetPassword"
+            android:layout_marginEnd="28dp"
+            />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

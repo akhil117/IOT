@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF2F3E56</color>
+    <color name="Background">#2F3C51</color>
+    <color name="Backgrounds">#091c39</color>
+    <color name="skyblue">#12B6CA</color>
+    <color name="forgotpassword">	#415168</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="ActionBarColor">#125688</color>
+    <color name="ActionBar">#125688</color>
+</resources>

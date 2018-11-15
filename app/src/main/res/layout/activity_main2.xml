@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Backgrounds"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cloud_computing"
+        android:layout_weight="1.9"/>
+    <EditText
+        android:id="@+id/regusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:textColor="#fff"
+        android:backgroundTint="#3A4A61"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:hint="  Username"
+        android:textColorHint="#AFB6C0"
+        android:drawableStart="@drawable/user"
+        />
+    <EditText
+        android:id="@+id/regemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:textColor="#fff"
+        android:backgroundTint="#3A4A61"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:hint="  Email"
+        android:textColorHint="#AFB6C0"
+        android:drawableStart="@drawable/post"
+        />
+    <EditText
+        android:id="@+id/regpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:textColor="#fff"
+        android:layout_marginEnd="18dp"
+        android:layout_weight="0.2"
+        android:backgroundTint="#3A4A61"
+        android:inputType="textPassword"
+        android:textColorHint="#AFB6C0"
+        android:hint="  Password"
+        android:drawableStart="@drawable/lock"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"/>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="signup"
+        android:layout_weight="0.3"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/backbutton"
+        android:inputType="textEmailAddress"
+        android:textColor="#E4EBED"
+        android:textSize="20sp"
+        android:text="SIGN UP"
+        android:layout_marginEnd="28dp"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onAlreadyUser"
+        android:layout_weight="0.1"
+        android:textSize="18sp"
+        android:textColor="@color/forgotpassword"
+        android:text="Already a user"/>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.4"/>
+
+
+
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

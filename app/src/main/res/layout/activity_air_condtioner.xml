@@ -58,6 +58,8 @@
             android:layout_height="match_parent"
             android:layout_weight="0.4"/>
             <at.markushi.ui.CircleButton
+                android:onClick="powerButton"
+                android:id="@+id/acbutton"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1.3"

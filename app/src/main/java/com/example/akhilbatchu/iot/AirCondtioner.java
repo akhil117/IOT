@@ -15,6 +15,7 @@ public class AirCondtioner extends AppCompatActivity {
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
 
     ImageButton img;
+    int acflag=0;
     DatabaseReference mref;
     int temperature =18;
     private FirebaseDatabase mRef;
@@ -31,6 +32,19 @@ public class AirCondtioner extends AppCompatActivity {
 
         img = (ImageButton)findViewById(R.id.minus);
 
+    }
+
+    public void powerButton(View view)
+    {
+        if(acflag==0) {
+            acflag=1;
+            mref.child("ACPOWER").setValue(acflag);
+        }
+        else
+        {
+            acflag=0;
+            mref.child("ACPOWER").setValue(acflag);
+        }
     }
 
     public void minuspressed(View view)

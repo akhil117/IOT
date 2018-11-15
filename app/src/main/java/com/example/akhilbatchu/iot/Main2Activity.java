@@ -101,6 +101,7 @@ public class Main2Activity extends AppCompatActivity {
                                 mref.child("AnalogSmoke").setValue(0);
                                 mref.child("Light").setValue(0);
                                 mref.child("Alarm").setValue(0);
+                                mref.child("ACPOWER").setValue(0);
                                 mref.child("AirConditionerTemperature").setValue(18);
                                 Intent intent = new Intent(Main2Activity.this,MainActivity.class);
                                 String data = e+p;

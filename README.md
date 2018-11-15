@@ -23,3 +23,10 @@ The project is created by
 2. CK. Phani datta (AM.EN.U4CSE16119) -- ESP configuration
 2. B. Akhil (AM.EN.U4CSE16117) -- Android app and firebase configuration.
 3. P.Rammanoj (AM.EN.U4CSE16149) -- Website using firebase API
+
+## Learning
+
+Sarath-Had learnt about configuration of the esp8266 module and about various standard libraries like IR , DHT library (for determining temperature and humidity).
+Phani-Had learnt interfacing of various sensors like smoke, fire and temperature and humidity sensors.
+Manoj-learnt accessing firebase API
+Akhil-had learnt material design and firebase linking and accessing firebase database.

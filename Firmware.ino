@@ -6,11 +6,11 @@
 IRsend irsend(IR_LED);
 #define FIREBASE_HOST "iotfirebaseproject-8f0c3.firebaseio.com"
 #define FIREBASE_AUTH "nim2GI1La5UqBXeUbUTX4MM8c7jtg42FOHzOKDqc"
-#define WIFI_SSID "Sarath Chandra"
-#define WIFI_PASSWORD "qwerty12"
+#define WIFI_SSID "Your wifi name"
+#define WIFI_PASSWORD "your password"
 
-String email="saisarathganti@gmail.com";
-String password="1234567890";
+String email="";
+String password="";
 
 // Pin Definitions
 #define DHTPIN D2 
